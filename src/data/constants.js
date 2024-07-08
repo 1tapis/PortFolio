@@ -7,7 +7,7 @@ export const Bio = {
     "I am a fresher MERN Stack developer with a solid understanding of data structures, algorithms, and object-oriented programming in JavaScript. Over the past six months, I have immersed myself in project-based learning, honing my skills in the MERN stack. I am now eager to bring my expertise to real-world applications and I am open to exciting new opportunities.",
   github: "https://github.com/1tapis",
   resume:
-    "https://drive.google.com/file/d/1mqGKH4hrxNPVlssKdo5JtCFBoHtOCDGQ/view",
+    "https://drive.google.com/file/d/16teBXetjsyMR2EZouVjy1_gejlM1r8OP/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/tapis-singh-787378216/",
   twitter: "https://x.com/tony854949",
   insta: "#",
