@@ -147,9 +147,52 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: 1,
+    title: "Kanban Board",
+    date: "Jun 2024",
+    description:`I developed a dynamic and interactive Kanban Board application using React.js, HTML, and CSS. This project aims to streamline task management by allowing users to create, manage, and organize their tasks efficiently.Implemented drag-and-drop functionality using React's state management and event handling. Ensured data persistence with local storage, allowing users to pick up where they left off. Designed a clean and intuitive user interface, making task management straightforward and efficient.`,
+    image:
+      "https://raw.githubusercontent.com/1tapis/impotant-imgs/main/kanban-board.png",
+    tags: ["React Js","Java Script", "HTML", "CSS"],
+    category: "front-end",
+    github: "https://github.com/1tapis/kanban-board",
+    webapp: "https://kanban-board-swart.vercel.app/",
+
+  },
+  {
+    id: 2,
+    title: "Table Using Local Storage",
+    date: "June 2024",
+    description: `Overview: I developed a dynamic Table Management App using HTML, CSS, and JavaScript. This app facilitates efficient data management with various functionalities, including CRUD operations, local storage, and pagination. Features: 1. Add New Member: Easily add new entries to the table with a user-friendly form. 2. Edit Member Details: Update existing member information seamlessly. 3. Delete Member: Remove individual entries from the table with a single click. 4. Delete All Members: Clear all entries from the table at once. 5. Pagination: Navigate through the table entries efficiently using the pagination feature. 6. Local Storage: All data is stored locally, ensuring persistence across sessions.`,
+    image:
+      "https://raw.githubusercontent.com/1tapis/impotant-imgs/main/table.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "Java Script"
+    ],
+    category: "front-end",
+    github: "https://github.com/1tapis/LocalStorageTable/tree/main",
+    webapp: "https://local-storage-table.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Full Stack Task-Scheduler App",
+    date: "June 2024",
+    description:` a CRUD App, created using React.js, Node.js, and Express.js! This project has been a significant learning experience, especially as I just started with Node.js and Express.js. I implemented a singly linked list in the backend to perform all CRUD operations. This approach helps reduce the extra space typically used when performing these operations with arrays.`,
+    image:
+      "https://raw.githubusercontent.com/1tapis/impotant-imgs/main/task-scheduler.png",
+    tags: ["React Js", "Node Js", "Express Js", "Java Script", "HTML", "CSS"],
+    category: "full-stack",
+    github: "https://github.com/1tapis/task-scheduler-frontend",
+    webapp: "https://task-scheduler-frontend-0xep.onrender.com/",
+
+  }
+  ,
+  {
+    id: 4,
     title: "Todo App",
-    date: "Jun 2023 - Jul 2023",
+    date: "May 2024",
     description:
       "I developed a todo list application using JavaScript, HTML, and CSS, showcasing my proficiency in DOM manipulation and front-end development. This interactive web app allows users to manage their tasks efficiently with features such as adding, marking as completed, and deleting tasks.Key functionalities include: Add Tasks: Easily add new tasks to stay organized.        Complete Tasks: Mark tasks as completed to keep track of progress.Delete Tasks: Remove tasks that are no longer needed.Filter Tasks: View tasks based on their completion status. By leveraging DOM concepts and event handling, I ensured a smooth and responsive user experience. This project demonstrates my ability to create dynamic and user-friendly web applications.",
     image:
@@ -164,9 +207,9 @@ export const projects = [
     webapp: "https://1tapis.github.io/todo-list/",
   },
   {
-    id: 0,
+    id: 5,
     title: "Quiz App",
-    date: "Apr 2023 - May 2023",
+    date: "May 2024",
     description:
       "I built a Quiz App using HTML, CSS, and JavaScript. This project helped me solidify my understanding of the JavaScript DOM, a crucial foundation for web development. Deepened understanding of JavaScript DOM manipulation. Improved skills in event handling and dynamic content updates",
     image:
@@ -176,35 +219,7 @@ export const projects = [
     github: "https://github.com/1tapis/Quiz-app/tree/main",
     webapp: "https://668a112e3756a86b66160f76--frabjous-mochi-79c485.netlify.app/"
   },
-  {
-    id: 1,
-    title: "Table Using Local Storage",
-    date: "Oct 2022 - Present",
-    description: `Overview: I developed a dynamic Table Management App using HTML, CSS, and JavaScript. This app facilitates efficient data management with various functionalities, including CRUD operations, local storage, and pagination. Features: 1. Add New Member: Easily add new entries to the table with a user-friendly form. 2. Edit Member Details: Update existing member information seamlessly. 3. Delete Member: Remove individual entries from the table with a single click. 4. Delete All Members: Clear all entries from the table at once. 5. Pagination: Navigate through the table entries efficiently using the pagination feature. 6. Local Storage: All data is stored locally, ensuring persistence across sessions.`,
-    image:
-      "https://raw.githubusercontent.com/1tapis/impotant-imgs/main/table.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "Java Script"
-    ],
-    category: "front-end",
-    github: "https://github.com/1tapis/LocalStorageTable/tree/main",
-    webapp: "https://local-storage-table.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "Full Stack Task-Scheduler App",
-    date: "Jan 2023 - Mar 2023",
-    description:` a CRUD App, created using React.js, Node.js, and Express.js! This project has been a significant learning experience, especially as I just started with Node.js and Express.js. I implemented a singly linked list in the backend to perform all CRUD operations. This approach helps reduce the extra space typically used when performing these operations with arrays.`,
-    image:
-      "https://raw.githubusercontent.com/1tapis/impotant-imgs/main/task-scheduler.png",
-    tags: ["React Js", "Node Js", "Express Js", "Java Script", "HTML", "CSS"],
-    category: "full-stack",
-    github: "https://github.com/1tapis/task-scheduler-frontend",
-    webapp: "https://task-scheduler-frontend-0xep.onrender.com/",
-
-  }
+  
 
 ];
 
