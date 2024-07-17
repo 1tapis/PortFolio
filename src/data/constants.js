@@ -7,7 +7,7 @@ export const Bio = {
     "I am a fresher MERN Stack developer with a solid understanding of data structures, algorithms, and object-oriented programming in JavaScript. Over the past six months, I have immersed myself in project-based learning, honing my skills in the MERN stack. I am now eager to bring my expertise to real-world applications and I am open to exciting new opportunities.",
   github: "https://github.com/1tapis",
   resume:
-    "https://drive.google.com/file/d/16teBXetjsyMR2EZouVjy1_gejlM1r8OP/view?usp=sharing",
+    "https://drive.google.com/file/d/1NC6LUre6aV5Vxvr_eIt2RY2Rg44zqYgv/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/tapis-singh-787378216/",
   twitter: "https://x.com/tony854949",
   insta: "#",
@@ -146,6 +146,19 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 0,
+    title: "Full Stack Todo App",
+    date: "July 2024",
+    description:`I developed a comprehensive Full-Stack Todo App utilizing the MERN stack, combining MongoDB, Express.js, React.js, and Node.js. This project demonstrates my proficiency in both frontend and backend development, showcasing a fully functional application with seamless integration. User Interface: Designed the frontend using React.js, creating a dynamic and responsive user experience. Backend API: Implemented with Node.js and Express.js to handle all CRUD (Create, Read, Update, Delete) operations. Database: Utilized MongoDB to store and manage todo items. CORS: Learned and implemented the CORS concept to connect the frontend to the backend securely.`,
+    image:
+      "https://raw.githubusercontent.com/1tapis/impotant-imgs/main/mern_todo.png",
+    tags: ["React Js","Node Js","Express Js ","MongoDb","Java Script", "HTML", "CSS"],
+    category: "full-stack",
+    github: "https://github.com/1tapis/MERN_TODO",
+    webapp: "https://todoclient-verr.onrender.com/",
+
+  },
   {
     id: 1,
     title: "Kanban Board",
